@@ -1,0 +1,81 @@
+.main {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.25rem;
+
+
+}
+/* 
+@media screen and (max-width: 400px) {
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+} */
+
+.subject_card {
+    display: flex;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.993);
+
+    /* height: 100%;
+    width: 20%; */
+    margin: 2rem;
+    padding: 1rem;
+    background-color: red;
+}
+
+img {
+    height: 40px;
+    width: fit-content;
+}
+
+.picture {
+    padding: 1rem;
+    /* background-color: #ccc; */
+}
+
+.subject_two {
+    background-color: bisque;
+    border-radius: 12px;
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+
+}
+
+.subject_three {
+    border-radius: 12px;
+    background-color: blue;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.rock {
+    border-radius: 12px;
+    background-color: green;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.subject_five {
+    border-radius: 12px;
+    background-color: indianred;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.subject_six {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 12px;
+    background-color: yellow;
+    margin: 2rem;
+    padding: 1rem;
+
+}
