@@ -1,0 +1,122 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.25rem;
+    
+
+
+}
+body{
+
+    background-color: rgb(214, 224, 234);
+}
+
+@media screen and (max-width: 400px) {
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+} 
+
+.subject_card {
+    display: flex;
+    border-radius: 12px;
+    /* background-color: rgba(255, 255, 255, 0.993); */
+    background-color: whitesmoke;
+
+    /* height: 100%;
+    width: 20%; */
+    margin: 2rem;
+    padding: 1rem;
+    /* background-color: red; */
+}
+
+img {
+    height: 40px;
+    width: fit-content;
+}
+
+.picture {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* size:10px ; */
+
+    /* background-color: #ccc; */
+}
+i{
+    padding: 0.5rem;
+    display: flex; 
+}
+
+.subject_two {
+   
+    border-radius: 12px;
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+    /* background-color: red; */
+    /* border: 0.3px solid ; */
+    background-color: whitesmoke;
+   
+
+}
+
+.subject_three {
+    border-radius: 12px;
+  
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+     background-color: whitesmoke;
+}
+
+.rock {
+    border-radius: 12px;
+   
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+     background-color: whitesmoke;
+}
+
+.subject_five {
+    border-radius: 12px;
+    
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+     background-color: whitesmoke;
+}
+
+.subject_six {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 12px;
+    
+    margin: 2rem;
+    padding: 1rem;
+     background-color: whitesmoke;
+
+}
+    
+
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+}
+.p1{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+h1{
+    justify-content: center;
+    display: flex;
+
+}
