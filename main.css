@@ -1,4 +1,5 @@
 .main {
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.25rem;
@@ -10,7 +11,6 @@ body{
 
     background-color: rgb(214, 224, 234);
 }
-
 @media screen and (max-width: 400px) {
     .main{
         display: grid;
@@ -38,6 +38,7 @@ img {
 
 .picture {
     padding: 1rem;
+<<<<<<< HEAD
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -51,7 +52,11 @@ i{
 }
 
 .subject_two {
-   
+    /* background-color: #ccc; */
+}
+
+.subject_two {
+    background-color: bisque;
     border-radius: 12px;
     display: flex;
     margin: 2rem;
@@ -59,13 +64,11 @@ i{
     /* background-color: red; */
     /* border: 0.3px solid ; */
     background-color: whitesmoke;
-   
 
 }
 
 .subject_three {
     border-radius: 12px;
-  
     margin: 2rem;
     padding: 1rem;
     display: flex;
@@ -74,7 +77,6 @@ i{
 
 .rock {
     border-radius: 12px;
-   
     margin: 2rem;
     padding: 1rem;
     display: flex;
@@ -83,7 +85,6 @@ i{
 
 .subject_five {
     border-radius: 12px;
-    
     margin: 2rem;
     padding: 1rem;
     display: flex;
@@ -95,11 +96,9 @@ i{
     justify-content: space-between;
     align-items: start;
     border-radius: 12px;
-    
     margin: 2rem;
     padding: 1rem;
      background-color: whitesmoke;
-
 }
     
 
