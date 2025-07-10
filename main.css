@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* background-color: #f8f8f8; */
+  
 }
 
 .navbar {
@@ -131,6 +131,13 @@ body {
   .cta-btn {
     width: 100%;
   }
+     .hero{
+      display:flex;
+      flex-direction: column;
+    }
+    img{
+      width: 100%;
+    }
 }
 
 .main {
@@ -138,7 +145,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.25rem;
 }
-/* copy */
+
 
 
 
@@ -204,19 +211,25 @@ img {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .hero{
+      display:flex;
+      flex-direction: column;
+    }
+    img{
+      width: 100%;
+    }
 } 
 
 .subject_card {
     display: flex;
     border-radius: 12px;
-    /* background-color: rgba(255, 255, 255, 0.993); */
+    
     background-color: whitesmoke;
 
-    /* height: 100%;
-    width: 20%; */
+    
     margin: 2rem;
     padding: 1rem;
-    /* background-color: red; */
+    
 }
 .subject_card img {
     width: 100px;
@@ -230,18 +243,14 @@ img {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    /* size:10px ; */
-
-    /* background-color: #ccc; */
+    
 }
 i{
     padding: 0.5rem;
     display: flex; 
 }
 
-.subject_two {
-    /* background-color: #ccc; */
-}
+
 
 .subject_two {
     background-color: bisque;
@@ -249,8 +258,7 @@ i{
     display: flex;
     margin: 2rem;
     padding: 1rem;
-    /* background-color: red; */
-    /* border: 0.3px solid ; */
+  
     background-color: whitesmoke;
 
 }
@@ -293,7 +301,7 @@ i{
 .arrow{
     display: flex;
     justify-content: flex-end;
-    /* align-items: flex-end; */
+    
 }
 .p1{
      display: flex;
