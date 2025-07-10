@@ -1,11 +1,7 @@
 .main {
-<<<<<<< HEAD
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.25rem;
-    
-
-
 }
 body{
 
@@ -38,7 +34,6 @@ img {
 
 .picture {
     padding: 1rem;
-<<<<<<< HEAD
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
