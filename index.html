@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduBlog</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edublog Navbar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <main>
+     <main>
+  
+  <nav class="navbar">
+    <div class="logo">Edublog</div>
+
+    <!-- Hamburger icon -->
+    <button class="hamburger" id="hamburger">
+      &#9776;
+    </button>
+
+    <div class="nav-links" id="nav-links">
+      <ul class="main-ul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Course</a></li>
+      </ul>
+
+      <div class="cta">
+        <input type="text" placeholder="Search" />
+        <button class="cta-btn">Subscribe</button>
+      </div>
+    </div>
+  </nav>
+
+ 
       <h1>Explore By Subject</h1>
       <p>
         Choose your area of interest and dive into expertly crafted content
@@ -85,9 +112,8 @@
             <span class="article-count">43 articles </span>
           </div>
         </div>
-
-
-      </div>
-      
+        </div>
+        </main>
 </body>
 </html>
+
